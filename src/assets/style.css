@@ -1,0 +1,181 @@
+*{ 
+    margin: 0 ;
+    padding: 0 ;
+    border: 0 ;
+    font-size: 100%;
+    box-sizing: border-box;
+   }
+
+   
+   .header{
+    width: 90%;
+    display: flex;
+    padding: 48px;
+   justify-content: space-between;
+   margin: 0 auto;
+
+   }
+   .content{
+    padding: 10px 90px;
+    margin: 20px 0;
+  }
+  .content-section {
+    display: grid ;
+    grid-template-columns: 1fr 1fr ;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #E2E2E2;
+  }
+   .btn1{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .content-section--title {
+    align-self: center;
+    padding: 20px;
+  }
+   .content-section--title h1 {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  .text1{
+    text-decoration: underline yellow;
+  }
+  .content-section--img img {
+    width: 100%;
+  }
+  .content-section--title p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 15px 0;
+  }
+.download{
+    padding: 20px;
+   display: grid;
+    grid-template-columns: repeat(2, auto); /* Hai cột với độ rộng tự động */
+    justify-content: center;
+    gap: 15px; /* Khoảng cách giữa hai nút */
+    
+}
+.contact{
+    padding: 10px 90px;
+    margin: 20px 0;
+}
+
+.text2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+}
+.text3{
+    text-align: center;
+    font-weight: 550;
+}
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px 0;
+    gap: 20px;
+    padding: auto;
+    overflow-x: hidden;
+  }
+  .card1 {
+    border: 1px solid #E2E2E2;
+    box-shadow: 0 1px 1px #ccc;
+    padding: 10px;
+  }
+  .card1-title h1 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .card1-title p{
+    font-size: 15px;
+    font-weight: 200;
+  }
+  .content-section-title {
+    align-self: center;
+    padding: 20px;
+  }
+   .content-section-title h1 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .content-section--img img {
+    width: 100%;
+  }
+
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 30px 0;
+    gap: 20px;
+    /* padding: 10px 90px; */
+  }
+  .white{
+    float: right;
+  }
+  .feed-back{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+  }
+  .banner{
+    padding: 40px;
+  }
+  .anhkh{
+   margin: 0 auto;
+   display: block;
+  }
+  .pic-signin{
+    margin: 0 auto;
+    display: block;
+   }
+   .content-section-title1{
+    text-align: center;
+   }
+   @media only screen and (max-width: 768px) {
+    .header {
+      padding: 20px; /* Giảm padding */
+    }
+  
+    .content {
+      padding: 10px 20px; /* Giảm padding */
+    }
+  
+    .content-section {
+      grid-template-columns: 1fr; /* Chuyển sang cột đơn */
+      border-radius: 10px; /* Gỡ bỏ border radius */
+    }
+  
+    .content-section--title h1 {
+      font-size: 40px; /* Giảm kích thước font */
+    }
+  
+    .download {
+      grid-template-columns: auto; /* Hiển thị nút theo hàng dọc */
+    }
+  
+    .card {
+      grid-template-columns: 1fr; /* Chuyển sang cột đơn */
+    }
+  
+    .feed-back {
+      font-size: 25px; /* Giảm kích thước font */
+    }
+  
+    .banner {
+      padding: 20px; /* Giảm padding */
+    }
+  
+    .anhkh,
+    .pic-signin {
+      margin: 0 auto;
+      display: block;
+      max-width: 100%; /* Đảm bảo ảnh không vượt quá kích thước màn hình */
+      height: auto; /* Đảm bảo tỷ lệ khung hình bảo toàn */
+    }
+  
+    .content-section-title1 {
+      font-size: 30px; /* Giảm kích thước font */
+    }
+  }
+  
